@@ -13,7 +13,7 @@ struct CalimariAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchScreen()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
